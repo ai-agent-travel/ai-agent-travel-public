@@ -1,0 +1,16 @@
+flask==3.1.0
+Flask-Cors==5.0.0
+python-dotenv==1.0.1
+gunicorn==23.0.0
+pytest==8.3.4
+googlemaps==4.10.0
+scipy
+firebase-admin==6.6.0
+
+## LangGraph
+langgraph==0.2.62
+langchain==0.3.14
+langchain-google-vertexai==2.0.10
+langchain-openai==0.3.3
+langchain_google_genai
+langsmith==0.2.11

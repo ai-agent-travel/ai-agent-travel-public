@@ -1,0 +1,17 @@
+{
+  "dockerfile_lines": [
+    "FROM python:3.12-slim",
+    "COPY requirements.txt .",
+    "RUN pip install -r requirements.txt",
+    "COPY src/ .",
+    "CMD python main.py"
+  ],
+  "graphs": {
+    "main": "./src/core/graph.py:build_main_graph"
+  },
+  "env": "./.env.local",
+  "python_version": "3.12",
+  "dependencies": [
+    "./src"
+  ]
+}
